@@ -9,12 +9,12 @@ import ChatbotComponent from "./components/Chatbot/ChatbotComponents";
 
 import { useState } from "react";
 import DeveloperInfoPopup from "./components/DeveloperInfo/DeveloperInfoPopup";
-import HomePage from "./pages/Homepage";
 import ContactPage from "./pages/ContactPage";
 import AboutPage from "./pages/AboutPage";
 import CoursesPage from "./pages/CoursesPage";
 import AdmissionPage from "./pages/AdmissionPage";
 import NotFoundPage from "./pages/NotFoundPage";
+import HomePage from "./pages/HomePage";
 
 function App() {
   const [showPopup, setShowPopup] = useState(true);
@@ -38,7 +38,7 @@ function App() {
         <Header />
         <div className="content">
           <Routes>
-            <Route path="/" element={<HomePage />} />
+            <Route path="/" element={<HomePage/>} />
             <Route path="/contact" element={<ContactPage />} />
             <Route path="/about" element={<AboutPage />} />
             <Route path="/courses" element={<CoursesPage />} />
