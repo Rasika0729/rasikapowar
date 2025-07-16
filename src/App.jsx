@@ -8,7 +8,7 @@ import ChatbotComponent from "./components/Chatbot/ChatbotComponents";
 
 
 import { useState } from "react";
-import DeveloperInfoPopup from "./components/Developerinfo/DeveloperInfoPopup";
+import DeveloperInfoPopup from "./components/DeveloperInfo/DeveloperInfoPopup";
 import HomePage from "./pages/Homepage";
 import ContactPage from "./pages/ContactPage";
 import AboutPage from "./pages/AboutPage";
